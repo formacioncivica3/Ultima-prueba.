@@ -1,0 +1,77 @@
+
+.chat-div {
+  height: 530px;
+  overflow-y: scroll;
+}
+
+.green {
+  color: #fff; 
+  font-weight: bold;
+  font-size: 20px;
+  background:#19F286;
+  background:#19F286 -webkit-gradient(linear, left top, left bottom, from(#1beb83), to(#19F286)) repeat-x;
+  background:#19F286 linear-gradient(180deg, #1beb83, #19F286) repeat-x;
+  border-color:#19F286;
+}
+
+.blue {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  background:#2196F3 -webkit-gradient(linear, left top, left bottom, from(#42a6f5), to(#2196F3)) repeat-x;
+  background:#2196F3 linear-gradient(180deg, #42a6f5, #2196F3) repeat-x;
+  border-color:#2196F3;
+}
+    
+.verticalhr {
+  background: #d5d7d8;
+  box-shadow: 0px 0px 4px 0px rgba(214, 213, 213, 0.75);
+  width: 1px;
+  height: 100%;
+}
+
+.imageProfile {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+	object-fit: cover;
+}
+
+.contacts-div {
+  margin-top: 25px;
+}
+
+.lineDiv {
+  display: flex;
+}
+
+.offline {
+  width: 15px;
+  height: 15px;
+  background: #d5d7d8;
+  border-radius: 50%;
+  border: 2px solid #5e5d5d;
+  margin-top: 2px;
+  margin-right: 5px;
+}
+
+.online {
+  width: 15px;
+  height: 15px;
+  background: #19F286;
+  border-radius: 50%;
+  border: 2px solid #5e5d5d;
+  margin-top: 2px;
+  margin-right: 5px;
+}
+
+.user-card-link {
+  text-decoration: none;
+  color: #5e5d5d;
+  cursor: pointer;
+}
+
+.user-card-div:hover {
+  background: #ecedee;
+}

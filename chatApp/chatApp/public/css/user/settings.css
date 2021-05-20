@@ -1,0 +1,19 @@
+.image-div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.image-profile {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+	object-fit: cover;
+}
+
+@media (max-width:990px) and (min-width:768px){
+  .image-profile{
+    width: 260px;
+    height: 260px; 
+  }
+}
